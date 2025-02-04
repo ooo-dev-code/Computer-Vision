@@ -2,8 +2,6 @@
 import cv2
 # Load the pre-trained Haar Cascade classifier for eye detection
 eye_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_eye.xml')
-# Load the pre-trained Haar Cascade classifier for face detection
-face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_eye.xml')
 
 # Start the video capture from the default camera
 cap = cv2.VideoCapture(0)
