@@ -1,12 +1,12 @@
 import cv2 as cv
 
-img = cv.imread('OpenCV\Photos\img1.png')
+img = cv.imread('Photos\img1.png')
 cv.imshow("Image", img)
 
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 cv.imshow("Gray", gray)
 
-haar = cv.CascadeClassifier('OpenCV\Face Recognition\haar_face.xml')
+haar = cv.CascadeClassifier('haar_face.xml')
 
 faces_rect = haar.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=3)
 print(len(faces_rect))
