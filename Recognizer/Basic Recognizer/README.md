@@ -1,1 +1,1 @@
-# Variants of freeCodeCamp Course
+# Basics OPENCV Projects
