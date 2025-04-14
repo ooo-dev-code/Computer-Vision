@@ -1,1 +1,1 @@
-# Basics OPENCV Projects
+# Basics Face Recognizer
