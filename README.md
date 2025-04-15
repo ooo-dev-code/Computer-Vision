@@ -3,7 +3,7 @@
 <h2>Recognizer is the Open CV folder / Computer Vision projects</h2>
 
 Best Projects:
-- Rock Paper Scissors
-- Face recognizer
-- Face recognizer training
+- Recognizer -> Rock Paper Scissors
+- Recognizer -> Face recognizer
+- Recognizer -> Face recognizer training
  
